@@ -23,11 +23,7 @@
   "private": true,
   "dependencies": {
     "apollo-server": "^2.10.1",
-<<<<<<< HEAD
-    "apollo-server-express": "^2.10.1",
-=======
     "apollo-server-express": "^2.14.2",
->>>>>>> 69d306d76270509e53b768214e2bbac5b9d382b3
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "connection-string": "^3.1.1",
@@ -47,17 +43,11 @@
     "sequelize": "^5.21.4"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@types/bcryptjs": "^2.4.2",
     "@types/body-parser": "^1.19.0",
     "@types/cors": "^2.8.6",
     "@types/graphql-iso-date": "^3.3.3",
     "@types/jsonwebtoken": "^8.5.0",
-=======
-    "@types/body-parser": "^1.19.0",
-    "@types/cors": "^2.8.6",
-    "@types/graphql-iso-date": "^3.3.3",
->>>>>>> 69d306d76270509e53b768214e2bbac5b9d382b3
     "@types/lodash": "^4.14.149",
     "@types/node": "^13.7.1",
     "jest": "^25.1.0",
