@@ -5,7 +5,6 @@ import {
   GraphQLID,
   GraphQLList,
   GraphQLInputObjectType,
-  GraphQLType,
 } from 'graphql';
 import { GraphQLDateTime } from 'graphql-iso-date';
 import serviceLocator from '../../libs/di';

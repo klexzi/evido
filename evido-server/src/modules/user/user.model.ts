@@ -1,4 +1,3 @@
-import bcrypt
 import model from '../../libs/model';
 
 const Model = model('User', ['id', 'firstName', 'lastName', 'email', 'createdAt', 'updatedAt']);
@@ -28,10 +27,6 @@ class User extends Model<IUser> implements IUser {
   }
 
   static readonly modelName = 'UserModel';
-
-  protected hashPassword = () => {
-    const hashedPassword = bcrypt
-  }
 }
 
 export default User;
